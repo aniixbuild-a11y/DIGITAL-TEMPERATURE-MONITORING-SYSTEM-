@@ -1,0 +1,21 @@
+# macOS / editor files
+.DS_Store
+.vscode/
+*.code-workspace
+
+# Local build/debug output
+*.dSYM/
+new.c/pro
+*.o
+*.out
+
+# Arduino IDE build output
+build/
+.pio/
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+secrets.h
+arduino_secrets.h
